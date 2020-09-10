@@ -28,21 +28,21 @@ public class Main extends Application {
 
 
         Vehicles secondVehicles = new Vehicles("Mazda 5", 2006);
-        System.out.println("My first new vehdsadasdsaicle's name is: "+newVehicle.getName());
+        System.out.println("My first new vehdsadasdsaicle's name is: " + newVehicle.getName());
 
         //call method to change name for a vehicles instance
         //changeVehicle("Volkwagen Golf", newVehicle);
         newVehicle.changeVehicles("Volkswagen Golf", 2007);
-        System.out.println("My second new vehicle's name is: "+newVehicle.getName());
-        System.out.println("My second new vehicle's built year is: "+newVehicle.getBuiltYear());
+        System.out.println("My second new vehicle's name is: " + newVehicle.getName());
+        System.out.println("My second new vehicle's built year is: " + newVehicle.getBuiltYear());
 
         Car myFirstCar = new Car();
         myFirstCar.setName("Mercedes A-Class");
         myFirstCar.setBuiltYear(2020);
         myFirstCar.setMileage(30.2);
 
-        System.out.println("My third new vehiclejdfjewewfjfjf's name is: "+myFirstCar.getName());
-        System.out.println("My third new vehicle's built year is: "+myFirstCar.getBuiltYear());
+        System.out.println("My third new vehiclejdfjewewfjfjf's name is: " + myFirstCar.getName());
+        System.out.println("My third new vehicle's built year is: " + myFirstCar.getBuiltYear());
 
         Vehicles fourthvehicle = new Vehicles();
         fourthvehicle.methodThatusesarray();
@@ -50,7 +50,7 @@ public class Main extends Application {
         Vehicles[] arrayOfVehicles = new Vehicles[2];
         arrayOfVehicles[0] = newVehicle;
         arrayOfVehicles[1] = secondVehicles;
-        for (int i = 0; i<arrayOfVehicles.length; i++){
+        for (int i = 0; i < arrayOfVehicles.length; i++) {
             System.out.println(arrayOfVehicles[i].getName());
         }
 
@@ -62,10 +62,10 @@ public class Main extends Application {
 
         //losts of program code here
 
-        arrayListofVehicles.add(new Vehicles("Porche",2016));
+        arrayListofVehicles.add(new Vehicles("Porche", 2016));
 
         // more sophisticated way to get the number of objects in a arraylist.
-        for (int i = 0; i<arrayListofVehicles.size(); i++){
+        for (int i = 0; i < arrayListofVehicles.size(); i++) {
             System.out.println(arrayListofVehicles.get(i).getBuiltYear());
         }
     }
