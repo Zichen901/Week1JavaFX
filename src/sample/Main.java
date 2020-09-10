@@ -28,7 +28,7 @@ public class Main extends Application {
 
 
         Vehicles secondVehicles = new Vehicles("Mazda 5", 2006);
-        System.out.println("My first new vehicle's name is: "+newVehicle.getName());
+        System.out.println("My first new vehdsadasdsaicle's name is: "+newVehicle.getName());
 
         //call method to change name for a vehicles instance
         //changeVehicle("Volkwagen Golf", newVehicle);
