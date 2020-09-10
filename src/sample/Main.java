@@ -41,7 +41,7 @@ public class Main extends Application {
         myFirstCar.setBuiltYear(2020);
         myFirstCar.setMileage(30.2);
 
-        System.out.println("My third new vehicle's name is: "+myFirstCar.getName());
+        System.out.println("My third new vehiclejdfjfjfjf's name is: "+myFirstCar.getName());
         System.out.println("My third new vehicle's built year is: "+myFirstCar.getBuiltYear());
 
         Vehicles fourthvehicle = new Vehicles();
